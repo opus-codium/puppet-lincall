@@ -20,9 +20,12 @@ class lincall (
     content => template('lincall/lincall.sh'),
   }
 
+  ensure_packages(['desktop-file-utils'], { ensure => installed })
+
   exec { 'lincall update-desktop-database':
     command     => $update_desktop_database_path,
     refreshonly => true,
+    require     => Package['desktop-file-utils'],
   }
 
   File[$desktop_path] ~> Exec['lincall update-desktop-database']
