@@ -1,5 +1,6 @@
 class lincall (
   $desktop_path = $lincall::params::desktop_path,
+  $lincall_path = $lincall::params::lincall_path,
   $linphone_path = $lincall::params::linphone_path,
   $update_desktop_database_path = $lincall::params::update_desktop_database_path,
 ) inherits lincall::params {
