@@ -1,7 +1,7 @@
 {
   "name": "opuscodium-lincall",
   "version": "1.0.0",
-  "author": "Romain Tartière",
+  "author": "Romain Tartiere",
   "summary": "Click-to-call from the desktop with Linphone",
   "license": "MIT",
   "source": "https://github.com/opus-codium/puppet-lincall",
