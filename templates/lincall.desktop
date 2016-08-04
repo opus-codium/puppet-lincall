@@ -9,4 +9,4 @@ Name[fr]=Appeler avec Linphone
 Comment=Call people
 Comment[fr]=Passer des appels téléphoniques
 Categories=Application;Network;
-MimeType=x-scheme-handler/tel;
+MimeType=<% @protocols.each do |protocol| %>x-scheme-handler/<%= protocol %>;<% end %>

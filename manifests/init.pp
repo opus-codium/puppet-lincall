@@ -4,6 +4,12 @@ class lincall (
   $linphone_path = $lincall::params::linphone_path,
   $update_desktop_database_path = $lincall::params::update_desktop_database_path,
 ) inherits lincall::params {
+  $protocols = [
+    'call',
+    'sip',
+    'tel',
+  ]
+
   file { $desktop_path:
     ensure  => file,
     owner   => 'root',

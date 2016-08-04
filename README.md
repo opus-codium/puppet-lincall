@@ -15,7 +15,7 @@ A puppet module to enable click-to-call on the desktop with linphone.
 
 ## Module Description
 
-This module registers the `tel:` protocol with a [Desktop Entry
+This module registers the RFC3966 `tel:` URI (but also `call:` and `sip:`) with a [Desktop Entry
 Specification](http://standards.freedesktop.org/desktop-entry-spec/latest/),
 allowing the user to click on a link in his web browser to call a number.
 

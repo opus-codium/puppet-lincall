@@ -5,6 +5,6 @@ if [ $# -ne 1 ]; then
 	exit 1
 fi
 
-number=$(echo $1 | sed -e 's/^call://' -e 's/^tel://' -e 's/^sip://')
+number=$(echo $1 | sed <% @protocols.each do |protocol| %>-e 's/^<%= protocol %>://' <% end %>)
 
 <%= @linphone_path %> -c "${number}"
