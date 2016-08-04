@@ -4,8 +4,8 @@ Version=1.0
 Type=Application
 Terminal=false
 Exec=<%= @lincall_path %> %u
-Name=Call
-Name[fr]=Appeler
+Name=Call with Linphone
+Name[fr]=Appeler avec Linphone
 Comment=Call people
 Comment[fr]=Passer des appels téléphoniques
 Categories=Application;Network;
