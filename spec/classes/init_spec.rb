@@ -3,7 +3,7 @@ require 'spec_helper'
 describe 'lincall' do
   let(:facts) do
     {
-      osfamily: 'Debian'
+      osfamily: 'Debian',
     }
   end
 
