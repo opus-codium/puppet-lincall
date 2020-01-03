@@ -1,0 +1,5 @@
+---
+lincall::desktop_path: "/usr/share/applications/lincall.desktop"
+lincall::lincall_path: "/usr/bin/lincall"
+lincall::linphone_path: "/usr/bin/linphone"
+lincall::update_desktop_database_path: "/usr/bin/update-desktop-database"
