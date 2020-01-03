@@ -1,3 +1,9 @@
+# @summary Configure click-to-call from the desktop with Linphone
+#
+# @param desktop_path
+# @param lincall_path
+# @param linphone_path
+# @param update_desktop_database_path
 class lincall (
   $desktop_path = $lincall::params::desktop_path,
   $lincall_path = $lincall::params::lincall_path,
