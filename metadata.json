@@ -7,6 +7,11 @@
   "source": "https://github.com/opus-codium/puppet-lincall",
   "project_page": "https://github.com/opus-codium/puppet-lincall",
   "issues_url": "https://github.com/opus-codium/puppet-lincall/issues",
-  "dependencies": []
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version": ">= 4.13.0 < 7.0.0"
+    }
+  ]
 }
 

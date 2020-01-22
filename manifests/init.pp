@@ -5,10 +5,10 @@
 # @param linphone_path
 # @param update_desktop_database_path
 class lincall (
-  $desktop_path = $lincall::params::desktop_path,
-  $lincall_path = $lincall::params::lincall_path,
-  $linphone_path = $lincall::params::linphone_path,
-  $update_desktop_database_path = $lincall::params::update_desktop_database_path,
+  Stdlib::Absolutepath $desktop_path,
+  Stdlib::Absolutepath $lincall_path,
+  Stdlib::Absolutepath $linphone_path,
+  Stdlib::Absolutepath $update_desktop_database_path,
 ) {
   $protocols = [
     'call',
